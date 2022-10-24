@@ -14,7 +14,7 @@ int main()
 		while(1)
 		{
 				GPIO_ResetBits(LEN_PORT,GPIO_Pin_0);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-				DelayMs(1000);
+				DelayMs(500);
 				GPIO_SetBits(LEN_PORT,GPIO_Pin_0);
 				DelayMs(1000);
 		}
