@@ -4,7 +4,7 @@ typedef unsigned int u32;
 
 void DelayMs(u32 t)
 {
-		t=t*5144;//5143
+		t=t*5143;//5143
 		while(t--);
 }
 
@@ -16,6 +16,6 @@ int main()
 				GPIO_ResetBits(LEN_PORT,GPIO_Pin_0);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
 				DelayMs(500);
 				GPIO_SetBits(LEN_PORT,GPIO_Pin_0);
-				DelayMs(1000);
+				DelayMs(500);
 		}
 }
